@@ -98,10 +98,14 @@ public class Windows {
 					num2 = Integer.parseInt(textField_1.getText());
 					r = num1 / num2;
 					textField_2.setText(String.valueOf(r));
-				} catch (NumberFormatException e1) {
+				} catch (NumberFormatException numberFormatException) {
+					System.out.println("Números precisam ser maiores que zero");
 					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}				
+					// e1.printStackTrace();
+					// É possível a inserção de um outro catch (como podemos ver abaixo). 
+				} catch (ArithmeticException arythmeticException) {	
+					System.out.println(arythmeticException.toString());
+				}
 			}
 		});
 		btnNewButton.setBounds(52, 93, 86, 18);
