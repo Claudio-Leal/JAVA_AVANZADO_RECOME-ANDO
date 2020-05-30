@@ -13,6 +13,9 @@
 public class MyException extends Exception{
 	
 	//Declaração de um CONSTRUCTOR METHOD:
-	public MyException 
+	public MyException () {		
+		
+	}
+	
 
 }
