@@ -7,6 +7,7 @@
  * class: indicação de que a declaração é uma classe.
  * extends: extende os métodos da classe "Exception" a esta classe.
  * Exption: classe "interna que guarda métodos de exceção. 
+ * Ajustando github. 
  */
 
 
