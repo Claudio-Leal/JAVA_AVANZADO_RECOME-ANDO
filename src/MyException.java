@@ -6,17 +6,29 @@
  * public: poderá ser chamada de qualquer local da aplicação.
  * class: indicação de que a declaração é uma classe.
  * extends: extende os métodos da classe "Exception" a esta classe.
- * Exption: classe "interna que guarda métodos de exceção. 
- * Ajustando github. 
+ * Exption: classe "interna que guarda métodos de exceção.
+ * Esta é a estrutura básica da criação de uma exceção. Faremos um teste...
+ * chamando a partir da classe main (que estou criando agora).
  */
 
 
 public class MyException extends Exception{
 	
-	//Declaração de um CONSTRUCTOR METHOD:
+	/*
+	 * Declaração de um CONSTRUCTOR METHOD: public: poderá ser chamado de qualquer
+	 * local da aplicação. MyException: nome do CONSTRUCTOR METHOD.
+	 */
 	public MyException () {		
 		
 	}
 	
-
+	/*
+	 * Declaração de METODOS: Aqui é realmente um método. public: poderá ser chamado
+	 * de qualquer local da aplicação. String: tipo do retorno. exceptionError: nome
+	 * do MÉTODO. repare que este método está fora do bloco do CONSTRUCTOR METHOD.
+	 */
+	
+	public String exceptionError () {
+		return "Error x!!";		
+	}
 }
