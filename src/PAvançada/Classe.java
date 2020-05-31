@@ -4,6 +4,7 @@
  * MÉTODO CONSTRUTOR
  * ATRIBUTO (VARIÁVEL)
  * MÉTODO 
+ * A palavra CLASS é que determina que este "arquivo" se trata de uma classe. 
  */
 
 package PAvançada;
