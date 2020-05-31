@@ -1,10 +1,22 @@
+/*
+ * Abaixo, temos a estrutura básica de uma classe:
+ * Nela consta:
+ * MÉTODO CONSTRUTOR
+ * ATRIBUTO (VARIÁVEL)
+ * MÉTODO 
+ */
+
 package PAvançada;
 
+// MÉTODO CONSTRUTOR
 public class Classe {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	
+	// ATRIBUTO
+	int numeros;
+	
+	// MÉTODO
+	public void metodo () {	
 	}
-
 }
+
