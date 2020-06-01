@@ -10,9 +10,11 @@ public class MainI {
 	// public: poderá ser chamado de qualquer parte da aplicação.
 	// static void:
 	
-	public static void main (String [] args) {
-			EstadioMundial cl = new EstadioMundial();
-		};
-	}
-}
+	public static void main (String [] argumentos) {
+			// EstadioMundial é uma classe, que cria o objeto classe...
+			// e que tenta instanciar EstadioMundial. 
+			EstadioMundial classe = new EstadioMundial();
+		}
+
+
 

@@ -18,7 +18,7 @@ package Exemplo;
 // "EstadioConcerto e EstadioFutebol" referenciam "Estadio" através de extends, por isso estes
 // métodos foram inseridos aqui automaticamente. 
 // No total são 9 métodos,...e todos estão aqui.
-public class EstadioMundial implements EstadioConcerto, EstadioFutebol {
+public class EstadioMundial extends ClasseAbstrata implements EstadioConcerto, EstadioFutebol {
 
 	
 	// Originalmente, todos os métodos foram inseridos sem implementação (com o bloco de códigos vazio).
@@ -75,6 +75,12 @@ public class EstadioMundial implements EstadioConcerto, EstadioFutebol {
 
 	@Override
 	public void prepararCameras() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void metodo() {
 		// TODO Auto-generated method stub
 		
 	}
