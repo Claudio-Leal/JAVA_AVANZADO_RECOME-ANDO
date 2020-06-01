@@ -18,6 +18,7 @@ public class Classe {
 	
 	// MÉTODO
 	public void metodo () {	
+		System.out.println("A");
 	}
 }
 
