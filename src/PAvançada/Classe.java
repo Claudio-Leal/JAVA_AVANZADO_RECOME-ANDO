@@ -1,15 +1,10 @@
 /*
- * Abaixo, temos a estrutura básica de uma classe:
- * Nela consta:
- * ATRIBUTO (VARIÁVEL)
- * CONSTRUTOR  
- * MÉTODO 
+ * Abaixo, temos a estrutura básica de uma classe. * 
  * A palavra CLASS é que determina que este "arquivo" se trata de uma classe. 
  */
-
 package PAvançada;
 
-
+// CLASSE
 public class Classe {
 	// ATRIBUTO
 	int numeros;
