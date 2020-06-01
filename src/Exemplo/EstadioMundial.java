@@ -20,9 +20,14 @@ package Exemplo;
 // No total são 9 métodos,...e todos estão aqui.
 public class EstadioMundial implements EstadioConcerto, EstadioFutebol {
 
+	
+	// Originalmente, todos os métodos foram inseridos sem implementação (com o bloco de códigos vazio).
 	@Override
 	public void abrirEstadio() {
 		// TODO Auto-generated method stub
+		// Apenas como exemplo, uma saíde de impressão:
+		System.out.println("Teste!!!");
+	
 		
 	}
 
