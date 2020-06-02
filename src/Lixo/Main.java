@@ -2,7 +2,7 @@ package Lixo;
 
 public class Main {
 	
-	int numero;
+	//int numero = 0;
 	
 	// Construtor
 	public Main ( ) {
