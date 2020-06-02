@@ -1,3 +1,9 @@
+/*
+ * Exemplo perfeito de matriz muldimensional (no caso), bidimensional.
+ * Criei vários artifícios para facilitar o entendimento, então se executarmos o debug, vamos ver exatamente o que ocorre
+ * durante a iteração. 
+ */
+
 package PAvançada;
 
 public class Exemplo {
