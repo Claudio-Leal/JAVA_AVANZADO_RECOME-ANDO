@@ -21,12 +21,14 @@ public class Exemplo {
 		
 		//--------------------------------------VARIÁVEIS INÍCIO
 		// índices:
-		int i;
-		int j = 0;
+		int li = 0;
+		int cj = 0;
 		// valor a ser buscado. Apenas um exemplo: 16.
 		int buscando = 16;
 		// booleano para sabermos quando o valor foi encontrado. 
 		boolean encontrado = false;
+		// variável celula criada para armazenar o valor encontrado em (i x j).
+		int celula = 0;
 		//--------------------------------------VARIÁVEIS FIM
 		
 		
@@ -35,14 +37,24 @@ public class Exemplo {
 		//--------------------------------------BLOCO DE BUSCA INÍCIO
 		// rótulo (etiqueta). Sempre utilizar a palavra que queremos, seguida de ":",...não podendo ser reservada.
 		buscar:	
-		
-			for (i = 0 ; i < arrayInteiros[i].length ; i++) {
-				for (j = 0 ; j < arrayInteiros[i].length ; j++) {
-					if (arrayInteiros[i][j] == buscando) {
+			// enquanto i < tamanho do arrayInteiros, incrementa i. 
+			for (li = 0; li < arrayInteiros[li].length ; li++) {
+				// enquanto j < tamanho do arrayInteiros, incrementa j.// 
+				for (cj = 0 ; cj < arrayInteiros[li].length ; cj++) {
+					
+					// armazena a "célula" na variável celula e depois a imprime na tela. 
+					celula = arrayInteiros[li][cj];
+					System.out.println("Valor encontrado: " + celula + ".");
+					
+					// compara se dentro do array existe o valor 16. 
+					// caso positivo, encontrado recebe true e buscar é "brecado".					
+					if (arrayInteiros[li][cj] == buscando) {
 						encontrado = true;
+						System.out.println("buscando " + buscando + ", " + "encontrado " + arrayInteiros[li][cj] + "! Varredura finalizada.");
 						break buscar;
-					} else {
-						System.out.println(buscando);
+					// enquanto não encontra, o valor atribuído à buscando (16) continua sendo impresso. 
+					} else {						
+						System.out.println("buscando " + buscando + ", " + "encontrado " + arrayInteiros[li][cj] + ".");
 					}
 				}
 			}
