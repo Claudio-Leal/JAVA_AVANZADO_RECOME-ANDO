@@ -11,7 +11,12 @@ public class Principal {
 		int numero = 0;
 		while (numero < 20) {
 			numero ++;
-			System.out.println(numero);							
+			System.out.println(numero);
+			
+			// Bloco para interromper a instrução: break. 
+			if (numero == 10) {
+				break;
+			}
 		}
 	}
 }
