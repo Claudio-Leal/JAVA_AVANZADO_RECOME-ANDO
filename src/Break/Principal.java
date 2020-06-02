@@ -9,14 +9,15 @@ public class Principal {
 
 	public static void main(String[] args) {
 		int numero = 0;
-		while (numero < 20) {
-			numero ++;
+		while (numero < 20) {			
 			System.out.println(numero);
 			
 			// Bloco para interromper a instrução: break. 
 			if (numero == 10) {
 				break;
 			}
+			// Posição correta para a instrução de incremento. 
+			numero ++;
 		}
 	}
 }
