@@ -1,6 +1,10 @@
 /*
  * A ideia aqui é só de dar "nomes aos bois". 
- * O bloco que temos abaixo se chama Escopo da classe. 
+ * O bloco que temos abaixo se chama Escopo da classe.
+ * Neste exemplo, temos:
+ * Escopo da classe. 
+ * Escopo de cada método 3. 
+ * Escopo do bloco do for.  
  */
 
 
