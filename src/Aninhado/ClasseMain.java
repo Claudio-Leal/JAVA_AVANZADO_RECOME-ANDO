@@ -1,5 +1,8 @@
 /*
- * Classes de membros internos. 
+ * O código abaixo possui a intenção de mostrar a estrutura de classes aninhadas. 
+ * Não é um código que "executará" algo, exatamente. Mas a ideia aqui é mostrar como a classe
+ * aninhada funciona e como ela pode ser utilizada em outras partes da aplicação e dentro da 
+ * própria classe. 
  */
 
 
@@ -20,6 +23,8 @@ public class ClasseMain {
 	Aninhada classeAninhada;
 	
 	public ClasseMain (int numero, String nome, String outrodado) {
+	
+	// utilização do ojbeto criado acima. Está instanciando a classe aninhada. 
 	classeAninhada = new Aninhada ();
 } 
 	
@@ -29,7 +34,8 @@ public class ClasseMain {
 	class Aninhada {
 		String dado1ClasseAninhada;
 		String dado2ClasseAninhada;
-		public void Aninhada () {			
+		// Dentro da classe aninhada, Temos este construtor que possui o mesmo nome. Retorna void.		
+		public void Aninhada () {
 		}
 	}
 	//---------classe Aninhada - fim---------
