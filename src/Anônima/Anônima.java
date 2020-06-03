@@ -3,7 +3,7 @@
  * ou seja, um simples clique de um botão, etc., será definido.
  * importante frisar que este código não foi executado. É apenas conceitual. 
  * E o corpo da classe anonima também não foi definido.  
- */
+ 
 
 
 package Anônima;
@@ -29,3 +29,4 @@ public class Anônima {
 		};		
 	}
 }
+*/

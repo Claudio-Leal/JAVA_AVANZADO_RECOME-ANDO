@@ -8,7 +8,7 @@
  * Pelo Intellij, utilizei o surround with get / set. Aqui também é possível pelo que vi,
  * basta configurar os templates. Lembro que peguei as variáveis declaradas e simplesmente
  * fiz surround with get / set. 
- */
+
 
 package Enum;
 
@@ -58,3 +58,4 @@ public enum Dias {
 		
 	}
 }
+*/
