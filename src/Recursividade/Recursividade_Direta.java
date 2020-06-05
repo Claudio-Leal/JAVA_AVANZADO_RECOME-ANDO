@@ -2,6 +2,7 @@
  * RECURSIVIDADE DIRETA:
  * Quando um método chama a si próprio.
  * Um loop infinito não ocorre, pois isso só é possível fazer estabelecendo condições com if, etc. 
+ * Enviando agora para o branch correto. 
  */
 
 
