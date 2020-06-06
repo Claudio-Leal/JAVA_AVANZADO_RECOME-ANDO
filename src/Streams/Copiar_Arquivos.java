@@ -57,6 +57,24 @@ public class Copiar_Arquivos {
 		arquivoSaida = new File(args [1]);
 	}
 	}
+		
+	// Criação do método para duplicar arquivos.
+	// Desconsiderar os erros, por enquanto, pois esta é a lógica para duplicar arquivos. 
+	
+	public void duplicar () {
+		// fi e fo recebendo uma nova instância de inputStream, recebendo nos argumentos os arquivos correspodentes.
+		// b recebendo a informação de que se trata de uma medição e armazenamento em bites. 
+		// fi faz a leitura (read) e fo escreve (write). 
+		// sempre que trabalhamos com arquivos, precisamos fechá-los. Por isso, utilizamos os métodos close para fi e fo. 
+		fi = new FileInputStream(arquivoEntrada);
+		fo = new FileOutputStream(arquivoSaida);
+		b = new byte [(int) arquivoEntrada.length()];
+		fi.read(b);
+		fo.write(b);
+		fi.close();
+		fo.close();
+	}	
+	
 	public static void main (String [] args) {
 }
 }
