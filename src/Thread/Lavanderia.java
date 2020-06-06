@@ -25,9 +25,7 @@ public class Lavanderia extends Thread{
 	}
 	
 	
-	// Sempre teremos o metodo "correr" abaixo, pois sem ele o thread não se justifica.
-	// Os objetos declarados dentro deste método deverão terminar com .start,...
-	// Isso identifica que os processos podem iniciar automaticamente. 
+	// Sempre teremos o metodo "correr" abaixo, pois sem ele o thread não se justifica.	
 	// Quando se trabalha com "run", é comum a utilização de try / catch.
 	// Se vamos manejar threads dentro deles, é sempre bom utilizar try/catch para tratar...
 	// as exceções. 
@@ -46,6 +44,6 @@ public class Lavanderia extends Thread{
 			// Não é necessário "catchar" nada, pois já sabemos que não existirão erros. 
 		}
 		// Com a mensagem abaixo, encerramos a declaração de um trhead. 
-		System.out.println("Terminamos!");
+		System.out.println("Terminamos. " + "Tipo de lavagem: " + nome + ". Tempo: " + tempo + ".");		
 	}	
 }
